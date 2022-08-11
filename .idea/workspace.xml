@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2e544061-b81a-4484-953d-f029c5bade6f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/in1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/in2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/in3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/MergeSortRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/application/model/SortableModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/application/model/SortedFilesModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/application/usecase/DeleteInvalidFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/application/usecase/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/application/usecase/impl/DeleteInvalidFilesImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/application/usecase/impl/MergeSortImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/application/util/DeleteInvalidFilesStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/application/util/DeleteInvalidFilesStrategyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/application/util/SortStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/application/util/SortStrategyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/application/util/impl/DeleteInvalidFilesStrategyFactoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/application/util/impl/IntegerAscendingSortStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/application/util/impl/IntegerDescendingSortStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/application/util/impl/IntegerSortStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/application/util/impl/SortStrategyFactoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/application/util/impl/StringAscendingSortStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/application/util/impl/StringDescendingSortStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/application/util/impl/StringSortStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/domain/exception/InvalidFileFormatException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/domain/value/SortMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/domain/value/Sortable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/infrastructure/controller/MergeSortController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/infrastructure/dto/SortOptionsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/infrastructure/exception/CLIParseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/infrastructure/mapper/SortableModelMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/infrastructure/mapper/SortedFilesModelMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/infrastructure/util/CLIParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/infrastructure/util/impl/CLIParserWithApacheCommons.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/MergeSortRunner.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/application/util/SortStrategy.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/application/util/SortStrategyFactory.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/application/util/impl/IntegerSortStrategy.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/application/util/impl/SortStrategyFactoryImpl.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/application/util/impl/StringAscendingSortStrategy.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/infrastructure/controller/MergeSortController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/infrastructure/dto/SortOptionsDto.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/infrastructure/util/CLIParser.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/balyasnikov/nikolay/mergesort/infrastructure/util/impl/CLIParserWithApacheCommons.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2D2Xg1PqqNOgDQNtOHDhJdfhqIb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="balyasnikov.nikolay.mergesort.MergeSortRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="balyasnikov.nikolay.mergesort.MergeSortRunner" />
+      <module name="mergesort" />
+      <option name="PROGRAM_PARAMETERS" value="-a -i out.txt in1.txt in2.txt in3.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="balyasnikov.nikolay.mergesort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.balyasnikov.nikolay.mergesort.MergeSortRunner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e544061-b81a-4484-953d-f029c5bade6f" name="Changes" comment="" />
+      <created>1659898267140</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659898267140</updated>
+      <workItem from="1659898269861" duration="2773000" />
+      <workItem from="1659901223001" duration="613000" />
+      <workItem from="1659910041846" duration="330000" />
+      <workItem from="1659964905985" duration="9726000" />
+      <workItem from="1659983785783" duration="88000" />
+      <workItem from="1659986088499" duration="13423000" />
+      <workItem from="1660036333489" duration="15833000" />
+      <workItem from="1660169441866" duration="7374000" />
+      <workItem from="1660210353519" duration="964000" />
+      <workItem from="1660211682912" duration="9170000" />
+      <workItem from="1660224973510" duration="3167000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
